@@ -3,7 +3,7 @@ import type { DefaultTheme } from 'vitepress'
 export const algolia: DefaultTheme.AlgoliaSearchOptions = {
   appId: 'KL53HLW1QW',
   apiKey: '5eee53fe796c65071202655eefb5aada',
-  indexName: 'fcblog_pages',
+  indexName: 'fucang-blog',
   placeholder: '搜索',
   translations: {
     button: {
