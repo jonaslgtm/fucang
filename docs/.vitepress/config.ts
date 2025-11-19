@@ -1,0 +1,102 @@
+import { basename } from 'node:path'
+import { defineConfig } from 'vitepress'
+import MarkdownPreview from 'vite-plugin-markdown-preview'
+
+import { head, nav, sidebar, algolia } from './configs'
+
+const APP_BASE_PATH = basename(process.env.APP_BASE_PATH || '')
+
+export default defineConfig({
+  outDir: '../dist',
+  base: APP_BASE_PATH ? `/${APP_BASE_PATH}/` : '/',
+
+  lang: 'zh-CN',
+  title: '浮舱笔记',
+  description: '浮舱笔记，Notes to Self.',
+  head,
+
+  lastUpdated: true,
+  cleanUrls: true,
+  ignoreDeadLinks: 'localhostLinks',
+
+  /* markdown 配置 */
+  markdown: {
+    lineNumbers: true,
+    image: {
+      lazyLoading: true,
+    },
+  },
+
+  /* 主题配置 */
+  themeConfig: {
+    i18nRouting: false,
+
+    logo: '/logo.webp',
+
+    nav,
+    sidebar,
+
+    /* 右侧大纲配置 */
+    outline: {
+      level: 'deep',
+      label: '页面导航',
+    },
+
+    socialLinks: [{ icon: 'github', link: 'https://github.com/jonaslgtm' }],
+
+    footer: {
+      // message: '如有转载或 CV 的请标注本站原文地址',
+      copyright: 'Copyright © 2019 - Present Jonas',
+    },
+
+    lastUpdated: {
+      text: '最后更新于',
+      formatOptions: {
+        dateStyle: 'short',
+        timeStyle: 'medium',
+      },
+    },
+
+    /* Algolia DocSearch 配置 */
+    algolia,
+
+    docFooter: {
+      prev: '上一篇',
+      next: '下一篇',
+    },
+
+    returnToTopLabel: '回到顶部',
+    sidebarMenuLabel: '菜单',
+    darkModeSwitchLabel: '主题',
+    lightModeSwitchTitle: '切换到浅色模式',
+    darkModeSwitchTitle: '切换到深色模式',
+
+    /*** 自定义配置 ***/
+    visitor: {
+      badgeId: 'jonaslgtm.notes',
+    },
+
+    // comment: {
+    //   repo: 'jonaslgtm/mm-notes',
+    //   repoId: 'MDEwOlJlcG9zaXRvcnkxNTc0ODc5Mjg=',
+    //   category: 'Announcements',
+    //   categoryId: 'DIC_kwDOCWMTOM4CZ2rf',
+    // },
+  },
+
+  /* 生成站点地图 */
+  // sitemap: {
+  //   hostname: 'https://notes.fe-mm.com/',
+  // },
+
+  vite: {
+    plugins: [MarkdownPreview()],
+    css: {
+      preprocessorOptions: {
+        scss: {
+          api: 'modern-compiler',
+        },
+      },
+    },
+  },
+})
