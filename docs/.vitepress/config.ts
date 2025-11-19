@@ -85,9 +85,9 @@ export default defineConfig({
   },
 
   /* 生成站点地图 */
-  // sitemap: {
-  //   hostname: 'https://notes.fe-mm.com/',
-  // },
+  sitemap: {
+    hostname: 'https://blog.fucang.top/',
+  },
 
   vite: {
     plugins: [MarkdownPreview()],
