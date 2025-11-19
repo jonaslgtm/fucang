@@ -8,7 +8,7 @@ export const head: HeadConfig[] = [
   ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
   ['meta', { name: 'msapplication-TileColor', content: '#000000' }],
   ['meta', { name: 'msapplication-TileImage', content: '/favicon.ico' }],
-  ['meta', { name: 'algolia-site-verification', content: '3A952601B2B4F0DC' }],
+  ['meta', { name: 'algolia-site-verification', content: 'B2B1ECA92280731C' }],
   ['link', { rel: 'apple-touch-icon', href: '/favicon.ico' }],
   ['link', { rel: 'mask-icon', href: '/favicon.ico', color: '#3eaf7c' }],
   ['link', { rel: 'manifest', href: '/manifest.webmanifest' }],
