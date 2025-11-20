@@ -22,7 +22,7 @@ Git:fatal: unable to access 'https://github.com/xxx.git/': Failed to connect to 
 
 ## :star: 前提条件：已配置 SSH Key
 
-详细教程：[配置 GitHub 的 SSH 密钥](github-ssh-keys)
+详细教程：[在本地计算机上配置 GitHub 的 SSH 密钥](github-ssh-keys)
 
 ## 解决方法
 

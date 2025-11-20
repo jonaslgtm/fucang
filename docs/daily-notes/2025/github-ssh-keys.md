@@ -1,11 +1,11 @@
 ---
-title: 配置 GitHub 的 SSH 密钥
-description: '配置 GitHub 的 SSH 密钥'
+title: 在本地计算机上配置 GitHub 的 SSH 密钥
+description: 在本地计算机上配置 GitHub 的 SSH 密钥
 date: 2025-11-06 09:23:15
 tags: ["GitHub"]
 ---
 
-# 配置 GitHub 的 SSH 密钥
+# 在本地计算机上配置 GitHub 的 SSH 密钥
 
 ::: tip 官方文档
 
