@@ -8,7 +8,9 @@ tags: ["GitHub"]
 # 配置 GitHub 的 SSH 密钥
 
 ::: tip 官方文档
+
 [通过 SSH 连接到 GitHub](https://docs.github.com/zh/authentication/connecting-to-github-with-ssh)
+
 :::
 
 给 Git SSH 添加 Key 的步骤如下：

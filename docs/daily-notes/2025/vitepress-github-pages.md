@@ -9,8 +9,10 @@ tags: ["GitHub"]
 
 ## 当前仓库添加 ACCESS_TOKEN
 
-::: tip
-可以解决 GitHub workflow 时的权限问题
+::: tip 背景
+
+解决 GitHub workflow 时的权限问题
+
 :::
 
 ### 1. 生成 PAT

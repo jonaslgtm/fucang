@@ -1,6 +1,7 @@
 import { basename } from 'node:path'
 import { defineConfig } from 'vitepress'
 import MarkdownPreview from 'vite-plugin-markdown-preview'
+import { La51Plugin } from 'vitepress-plugin-51la'
 
 import { head, nav, sidebar, algolia } from './configs'
 
@@ -90,7 +91,7 @@ export default defineConfig({
   },
 
   vite: {
-    plugins: [MarkdownPreview()],
+    plugins: [MarkdownPreview(),La51Plugin({ id: '3O7uab6Jff8eGzAT', ck: '3O7uab6Jff8eGzAT', importMode: 'async'})],
     css: {
       preprocessorOptions: {
         scss: {

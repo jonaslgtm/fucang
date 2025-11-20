@@ -6,10 +6,12 @@ tags: ["GitHub","VS Code"]
 
 # 解决 Github 同步本地分支时报错
 
-::: danger 遇到的问题
-Github 同步本地分支时报错，无法使用 VSCode 将本地版本同步到 github
+::: danger 背景
+
+**遇到的问题**：Github 同步本地分支时报错，无法使用 VSCode 将本地版本同步到 github
 
 从网络找到的方法，并添加自己的理解和实操。
+
 :::
 
 ## 报错信息

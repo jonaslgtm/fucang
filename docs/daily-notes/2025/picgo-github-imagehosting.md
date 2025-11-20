@@ -7,7 +7,7 @@ tags: ["PicGo", "GitHub","图床"]
 
 # PicGo + GitHub 搭建个人免费图床
 
-::: tip INFO
+::: tip 背景
 
 搭建个人免费图床实操记录。
 
@@ -96,6 +96,7 @@ https://cdn.jsdelivr.net/gh/jonaslgtm/image-hosting-github@latest/xxxx.png
 ![jsdeliver](images/jsdelivr-github.png)
 
 **<font color="#b8272c">这里值得注意的是</font>**：如果需要指定上传到哪个分支，此时需要在自定义域名后面使用@ + 分支名，如果是仓库默认的分支，可以省略指定分支这一步。
+
 ## 六、 VSCode PicGo 插件配置
 
 **VSCode设置:**
