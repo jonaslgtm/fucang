@@ -35,8 +35,8 @@ features:
     link: /efficiency/online-tools
     linkText: 提效工具
   - icon: 💯
-    title: 吾志所向，一往无前。
-    details: '<small class="bottom-small">一个想躺平的小开发</small>'
+    title: 好记性不如烂键盘
+    details: '<small class="bottom-small">Notes to Self.</small>'
     link: /about
 ---
 
