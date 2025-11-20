@@ -34,7 +34,7 @@ features:
     details: 工欲善其事，必先利其器<br />记录开发和日常使用中所用到的软件、插件、扩展等
     link: /efficiency/online-tools
     linkText: 提效工具
-  - icon: 💯
+  - icon: 👻
     title: 好记性不如烂键盘
     details: '<small class="bottom-small">Notes to Self.</small>'
     link: /about

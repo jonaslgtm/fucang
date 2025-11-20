@@ -8,7 +8,6 @@ title: Daily Notes 日常笔记
 
 共计 **9** 篇（上次更新: 2025-11-20）
 
-
 ## 2025 年 (共计 7 篇)
 
 2025-11-20 —— [给 vitepress 配置 51LA 统计](/daily-notes/2025/vitepress-51la)
@@ -25,10 +24,8 @@ title: Daily Notes 日常笔记
 
 2025-05-02 —— [PicGo + GitHub 搭建个人免费图床](/daily-notes/2025/picgo-github-imagehosting)
 
-
 ## 2024 年 (共计 2 篇)
-
-2025-11-20 —— [测试文件不上传](/daily-notes/2024/a-1-copy)
 
 2025-11-20 —— [测试文件不上传](/daily-notes/2024/a-1)
 
+2025-11-20 —— [测试文件不上传](/daily-notes/2024/a-1-copy)
