@@ -74,7 +74,7 @@ export default defineConfig({
 
     /*** 自定义配置 ***/
     visitor: {
-      badgeId: 'jonaslgtm.notes',
+      badgeId: 'jonaslgtm.fucang',
     },
 
     // comment: {
