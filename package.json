@@ -9,10 +9,12 @@
     "type": "git",
     "url": "git+https://github.com/jonaslgtm/fucang.git"
   },
+
   "bugs": {
     "url": "https://github.com/jonaslgtm/fucang/issues"
   },
-  "author": "jonas <10245089@qq.com>",
+
+  "author": "jonas <g10245089@gmail.com> (https://github.com/jonaslgtm)",
 
   "scripts": {
     "dev": "cross-env NODE_ENV=development pnpm run generate-index && vitepress dev docs --port=8732",
