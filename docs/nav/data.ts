@@ -412,7 +412,7 @@ export const NAV_DATA: NavData[] = [
         icon: 'https://weibo.com/favicon.ico',
         title: '微博',
         // desc: '全球最大的中文社交媒体平台',
-        link: 'https://weibo.com/hot/mine'
+        link: 'https://weibo.com/hot/search'
       },
       {
         icon: 'https://www.douyin.com/favicon.ico',
