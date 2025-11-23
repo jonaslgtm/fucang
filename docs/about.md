@@ -42,7 +42,7 @@ img {
 
 ---
 
-![南京玄武湖](https://cdn.jsdelivr.net/gh/jonaslgtm/fucang-imgs@latest/nj-bg.png)
+![南京玄武湖](https://cdn.jsdelivr.net/gh/jonaslgtm/fucang-imgs@latest/nj-bg.avif)
 
 ---
 
