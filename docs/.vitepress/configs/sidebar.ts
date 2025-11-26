@@ -11,12 +11,9 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
         { text: '引用类型的拷贝', link: '/fe/javascript/clone' },
         { text: '类型转换', link: '/fe/javascript/conversions' },
         { text: '原型和原型链', link: '/fe/javascript/prototype' },
-        { text: '继承', link: '/fe/javascript/inherit' }
+        { text: '继承', link: '/fe/javascript/inherit' },
+        { text: 'ES6 常用知识点', link: '/fe/es6/'},
       ]
-    },
-    {
-      text: 'ES6 常用知识点',
-      link: '/fe/es6/'
     },
     {
       text: 'TypeScript',
@@ -24,19 +21,27 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
       items: [
         { text: '基础知识', link: '/fe/typescript/base' },
         { text: '编译配置', link: '/fe/typescript/tsconfig' },
-        { text: '类型体操', link: '/fe/typescript/challenges' }
+        // { text: '类型体操', link: '/fe/typescript/challenges' }
       ],
       link: '/fe/typescript/base'
     },
     {
-      text: 'HTML / CSS',
+      text: 'CSS',
+      collapsed: false,
+      items: [
+        { text: 'CSS 理论知识点', link: '/fe/css/' },
+        { text: 'CSS 语法', link: '/fe/css/spec' },
+        { text: 'CSS 奇淫技巧', link: '/fe/css/tricks' },
+      ]
+    },
+    {
+      text: 'HTML',
       collapsed: false,
       items: [
         { text: 'HTML 理论知识点', link: '/fe/html/' },
-        { text: 'CSS 理论知识点', link: '/fe/css/' }
       ]
     },
-    { text: ' Webpack', link: '/fe/webpack/' },
+    // { text: ' Webpack', link: '/fe/webpack/' },
     {
       text: '浏览器与网络',
       collapsed: false,
@@ -45,11 +50,6 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
         { text: 'TCP', link: '/fe/network/tcp' },
         { text: 'HTTP', link: '/fe/network/http' }
       ]
-    },
-    {
-      text: 'Node',
-      collapsed: false,
-      items: [{ text: 'package.json', link: '/fe/node/pkg' }]
     },
     {
       text: '概念知识点',
@@ -97,19 +97,20 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
       collapsed: false,
       items: [
         { text: 'Tailwind CSS', link: '/workflow/library/tailwindcss' },
+        { text: 'Sass 常用技巧', link: '/workflow/sass/' },
         { text: 'Day.js', link: '/workflow/library/dayjs' }
       ]
     },
-    {
-      text: 'HTML / CSS 相关',
-      collapsed: false,
-      items: [
-        { text: 'HTML 奇淫技巧', link: '/workflow/html/tricks' },
-        { text: 'CSS 语法', link: '/workflow/css/spec' },
-        { text: 'CSS 奇淫技巧', link: '/workflow/css/tricks' },
-        { text: 'Sass 常用技巧', link: '/workflow/sass/' }
-      ]
-    },
+    // {
+    //   text: 'HTML / CSS 相关',
+    //   collapsed: false,
+    //   items: [
+    //     { text: 'HTML 奇淫技巧', link: '/workflow/html/tricks' },
+    //     { text: 'CSS 语法', link: '/workflow/css/spec' },
+    //     { text: 'CSS 奇淫技巧', link: '/workflow/css/tricks' },
+    //     { text: 'Sass 常用技巧', link: '/workflow/sass/' }
+    //   ]
+    // },
     // {
     //   text: 'Vue 相关',
     //   link: '/workflow/vue/'
@@ -117,15 +118,19 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
     {
       text: 'Node 相关',
       // collapsed: false,
-      items: [{ text: 'npm 常用命令', link: '/workflow/node/npm' }]
-    },
-    {
-      text: '前端框架相关',
-      //collapsed: false,
       items: [
-        { text: 'Vue ', link: '/workflow/vue/' },
+        { text: 'npm 常用命令', link: '/workflow/node/npm' },
+        { text: 'node.js 版本管理', link: '/workflow/node/vm' },
+        { text: 'package.json 详解', link: '/workflow/node/pkg' },
       ]
-    },
+      },
+    // {
+    //   text: '前端框架相关',
+    //   //collapsed: false,
+    //   items: [
+    //     { text: 'Vue ', link: '/workflow/vue/' },
+    //   ]
+    // },
     {
       text: '终端相关',
       //collapsed: false,
@@ -151,8 +156,8 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
         { text: 'Mac 平台', link: '/efficiency/software/mac' },
         { text: 'Windows 平台', link: '/efficiency/software/windows' },
         { text: '浏览器设置与扩展', link: '/efficiency/software/browser' },
-        { text: 'Visual Studio Code 配置', link: '/efficiency/software/vscode' },
-        { text: 'WebStorm 配置', link: '/efficiency/software/webstorm' }
+        { text: 'WebStorm 配置', link: '/efficiency/software/webstorm' },
+        { text: 'Visual Studio Code 配置', link: '/efficiency/software/vscode' }
       ]
     },
     { text: '在线工具', link: '/efficiency/online-tools' },

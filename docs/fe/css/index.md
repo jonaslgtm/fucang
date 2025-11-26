@@ -34,7 +34,7 @@ const isTansform = ref(false)
 
 # CSS 理论知识点
 
-> 记录一些（那啥需要的）理论知识点，其他的 [CSS 语法与技巧请点这里](/workflow/css/spec)
+> 记录一些（那啥需要的）理论知识点，其他的 [CSS 语法与技巧请点这里](spec)
 
 ## 介绍一下盒模型
 

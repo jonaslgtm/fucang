@@ -12,26 +12,23 @@ hero:
   actions:
     - text: 网址导航
       link: /nav
-    - text: 前端物语
-      link: /fe/es6/
-      theme: alt
     - text: 日常笔记
       link: /daily-notes/
       theme: alt
 features:
   - icon: 📖
-    title: 前端物语
-    details: 整理前端常用知识点<small>（面试八股文）</small><br />如有异议按你的理解为主，不接受反驳
+    title: 前端学习
+    details: 整理前端常用知识点<small> </small>
     link: /fe/javascript/types
     linkText: 前端常用知识
   - icon: 💡
     title: Workflow
-    details: 在工作中学到的一切<small>（常用库/工具/奇淫技巧等）</small><br />配合 CV 大法来更好的摸鱼
+    details: 在工作中学到的一切<small>（奇淫技巧）</small>
     link: /workflow/utils/library
     linkText: 常用工具库
   - icon: 🧰
     title: 提效工具
-    details: 工欲善其事，必先利其器<br />记录开发和日常使用中所用到的软件、插件、扩展等
+    details: 记录开发和日常使用中所用到一切
     link: /efficiency/online-tools
     linkText: 提效工具
   - icon: 👻

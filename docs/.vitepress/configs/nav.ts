@@ -3,24 +3,47 @@ import type { DefaultTheme } from 'vitepress'
 export const nav: DefaultTheme.Config['nav'] = [
   { text: '导航', link: '/nav', activeMatch: '^/nav' },
   { text: '笔记', link: '/daily-notes/', activeMatch: '^/daily-notes' },
+
   {
-    text: '前端物语',
+    text: '前端学习',
     items: [
-      { text: 'JavaScript 基础知识', link: '/fe/javascript/types' },
-      { text: 'CSS 理论知识点', link: '/fe/css/' },
-      { text: 'ES6 常用知识', link: '/fe/es6/' },
       {
+        text:'前端基础知识点',
         items: [
-          { text: 'TypeScript 基础知识', link: '/fe/typescript/base' },
-          { text: 'TypeScript 类型体操', link: '/fe/typescript/challenges' }
+          { text: 'JavaScript', link: '/fe/javascript/types' },
+          { text: 'TypeScript', link: '/fe/typescript/base' },
+          { text: 'CSS', link: '/fe/css/' },
+          { text: 'HTML', link: '/fe/html/' }
         ]
       },
-      { text: 'Webpack', link: '/fe/webpack/' },
+      // { text: 'JavaScript 基础知识', link: '/fe/javascript/types' },
+      // { text: 'CSS 理论知识点', link: '/fe/css/' },
+      // { text: 'HTML 理论知识点', link: '/fe/html/' },
+      // { text: 'ES6 常用知识', link: '/fe/es6/' },
+      // {
+      //   items: [
+      //     { text: 'CSS 理论知识点', link: '/fe/css/' },
+      //   ]
+      // },
+      // {
+      //   text: 'CSS',
+      //   items: [
+      //     { text: 'CSS 理论知识点', link: '/fe/css/' },
+      //     { text: 'CSS 语法', link: '/fe/css/spec' },
+      //     { text: 'CSS 奇淫技巧', link: '/fe/css/tricks' },
+      //   ]
+      // },
+      // {
+      //   items: [
+      //     { text: 'HTML 理论知识点', link: '/fe/html/' },
+      //   ]
+      // },
+
       { text: '浏览器相关知识', link: '/fe/browser/' },
-      { text: '编程题', link: '/fe/coding/' }
     ],
     activeMatch: '^/fe'
   },
+
   {
     text: 'Workflow',
     items: [
@@ -39,9 +62,7 @@ export const nav: DefaultTheme.Config['nav'] = [
       {
         //   text: 'CSS 相关',
         items: [
-          { text: 'HTML 语法', link: '/workflow/html/tricks' },
-          { text: 'CSS 语法', link: '/workflow/css/spec' },
-          { text: 'CSS 奇淫技巧', link: '/workflow/css/tricks' },
+          // { text: 'HTML 语法', link: '/workflow/html/tricks' },
           { text: 'Sass 常用技巧', link: '/workflow/sass/' }
         ]
       },
@@ -95,8 +116,9 @@ export const nav: DefaultTheme.Config['nav'] = [
           { text: 'Mac 平台', link: '/efficiency/software/mac' },
           { text: 'Windows 平台', link: '/efficiency/software/windows' },
           { text: '浏览器设置与扩展', link: '/efficiency/software/browser' },
-          { text: 'Visual Studio Code 配置', link: '/efficiency/software/vscode' },
-          { text: 'WebStorm 配置', link: '/efficiency/software/webstorm' }
+          { text: 'WebStorm 配置', link: '/efficiency/software/webstorm' },
+          { text: 'Visual Studio Code 配置', link: '/efficiency/software/vscode' }
+
         ]
       },
       { text: '在线工具', link: '/efficiency/online-tools' },
