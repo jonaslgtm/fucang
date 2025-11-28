@@ -222,6 +222,13 @@ export const NAV_DATA: NavData[] = [
     title: '⚛️ 前端技术栈',
     items: [
       {
+        badge: '构建工具',
+        icon: 'https://cn.vitejs.dev/logo.svg',
+        title: 'Vite 中文文档',
+        desc: '下一代前端工具链',
+        link: 'https://cn.vitejs.dev'
+      },
+      {
         badge: '框架',
         icon: 'https://zh-hans.reactjs.org/favicon.ico',
         title: 'React',
@@ -263,13 +270,6 @@ export const NAV_DATA: NavData[] = [
         desc: '一个用于现代 JavaScript 应用程序的静态模块打包工具',
         link: 'https://www.webpackjs.com'
       },
-      {
-        badge: '构建工具',
-        icon: 'https://cn.vitejs.dev/logo.svg',
-        title: 'Vite 中文文档',
-        desc: '下一代前端工具链',
-        link: 'https://cn.vitejs.dev'
-      },
     ]
   },
 
@@ -284,6 +284,13 @@ export const NAV_DATA: NavData[] = [
         link: 'https://frontender-ua.medium.com'
       },
       {
+        badge: '官网',
+        icon: 'https://www.typescriptlang.org/icons/icon-72x72.png?v=8944a05a8b601855de116c8a56d3b3ae',
+        title: 'TypeScript',
+        desc: 'TypeScript 是具有类型语法的 JavaScript',
+        link: 'https://www.typescriptlang.org/zh/'
+      },
+      {
         icon: 'https://developer.mozilla.org/favicon.ico',
         title: 'MDN | Web 开发者指南',
         desc: 'Mozilla 的开发者平台，提供了大量关于 HTML、CSS 和 JavaScript 的详细文档以及广泛的 Web API 参考资',
@@ -296,19 +303,6 @@ export const NAV_DATA: NavData[] = [
         link: 'https://www.runoob.com'
       },
       {
-        icon: '/icons/es6.svg',
-        title: 'ES6 入门教程',
-        desc: '阮一峰的网络日志',
-        link: 'http://es6.ruanyifeng.com'
-      },
-      {
-        badge: '官网',
-        icon: 'https://www.typescriptlang.org/icons/icon-72x72.png?v=8944a05a8b601855de116c8a56d3b3ae',
-        title: 'TypeScript',
-        desc: 'TypeScript 是具有类型语法的 JavaScript',
-        link: 'https://www.typescriptlang.org/zh/'
-      },
-      {
         badge: 'mark',
         icon: 'https://markdown.com.cn/favicon.ico',
         title: 'Markdown',
@@ -317,27 +311,17 @@ export const NAV_DATA: NavData[] = [
       },
       {
         badge: '图书',
+        icon: '/icons/es6.svg',
+        title: 'ES6 入门教程',
+        desc: '阮一峰的网络日志',
+        link: 'http://es6.ruanyifeng.com'
+      },
+      {
+        badge: '图书',
         icon: 'https://lqlab.readthedocs.io/en/latest/_static/icon.ico',
         title: 'Python完全自学教程',
         desc: '一本适合零基础入门的Python教程，开源',
         link: 'https://github.com/qiwsir/PythonBook'
-      },
-      {
-        icon: '/icons/you-need-to-know-css.ico',
-        title: 'You-need-to-know-css',
-        desc: 'Web开发者应该掌握的CSS tricks',
-        link: 'https://lhammer.cn/You-need-to-know-css/#/zh-cn/'
-      },
-      {
-        icon: '/icons/qishaoxuan-css-tricks.png',
-        title: 'CSS 常用样式',
-        desc: 'CSS 常用样式和奇技淫巧总结',
-        link: 'https://qishaoxuan.github.io/css_tricks/'
-      },
-      {
-        title: 'CSS 常见布局',
-        desc: 'CSS 各种常见的布局实现',
-        link: 'https://sweet-kk.github.io/css-layout/'
       }
     ]
   },

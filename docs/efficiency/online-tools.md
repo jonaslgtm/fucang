@@ -62,6 +62,9 @@ description: '收录一些实用的在线工具，免去下载软件的烦恼'
 
 ### CSS 相关
 
+- [CSS 常见布局](https://sweet-kk.github.io/css-layout/) CSS 各种常见的布局实现
+- [CSS 常用样式](https://qishaoxuan.github.io/css_tricks/) CSS 常用样式和奇技淫巧总结
+- [You-need-to-know-css](https://lhammer.cn/You-need-to-know-css/#/zh-cn/) Web开发者应该掌握的CSS tricks
 - [Animista](https://animista.net) 在线练习和生成 CSS 动画
 - [CSS Loaders](https://css-loaders.com) 600+ 的 CSS 加载动画
 - [CSS Grid Generator](https://cssgrid-generator.netlify.app) `grid` 布局
