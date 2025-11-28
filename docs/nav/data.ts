@@ -2,7 +2,7 @@ import type { NavData } from '../.vitepress/theme/types'
 
 export const NAV_DATA: NavData[] = [
   {
-    title: '常用',
+    title: '⭐ 常用',
     items: [
       {
         badge: 'Private',
@@ -10,6 +10,12 @@ export const NAV_DATA: NavData[] = [
         title: '_stars',
         desc: '整理自己的 Github 上的 star list',
         link: 'https://github.com/jonaslgtm/_stars/blob/main/README.md'
+      },
+      {
+        icon: 'https://mp.weixin.qq.com/favicon.ico',
+        title: '微信公众平台',
+        desc: '管理服务号、公众号、小程序',
+        link: 'https://mp.weixin.qq.com/',
       },
       {
         icon: 'https://www.apple.com.cn/favicon.ico',
@@ -25,15 +31,40 @@ export const NAV_DATA: NavData[] = [
         link: 'https://chat.deepseek.com/'
       },
       {
-        icon: 'https://mp.weixin.qq.com/favicon.ico',
-        title: '微信公众平台',
-        desc: '管理服务号、公众号、小程序',
-        link: 'https://mp.weixin.qq.com/',
-      }
+        icon: 'https://www.douyin.com/favicon.ico',
+        title: '抖音',
+        desc: '字节跳动旗下短视频平台',
+        link: 'https://www.douyin.com/'
+      },
+      {
+        icon: 'https://static.hdslb.com/mobile/img/512.png',
+        title: '哔哩哔哩',
+        desc: 'B 站，视频弹幕网站',
+        link: 'https://www.bilibili.com'
+      },
+      {
+        icon: '/icons/instagram.svg',
+        title: 'Instagram',
+        desc: 'ins，全球最大的图片社交平台',
+        link: 'https://www.instagram.com/'
+      },
+      {
+        icon: '/icons/youtube.svg',
+        title: 'YouTube',
+        desc: '油管，全球最大的视频分享网站',
+        link: 'https://www.youtube.com'
+      },
+      {
+        badge:'抖音国际版',
+        icon: 'https://www.tiktok.com/favicon.ico',
+        title: 'TikTok',
+        desc:'全球领先的短视频创作与分享平台',
+        link: 'https://www.tiktok.com/'
+      },
     ]
   },
   {
-    title: '社区',
+    title: '🌐 社区',
     items: [
       {
         title: 'Github',
@@ -48,6 +79,12 @@ export const NAV_DATA: NavData[] = [
         icon: 'https://static.zhihu.com/heifetz/assets/apple-touch-icon-60.362a8eac.png',
         desc: '中文互联网高质量的问答社区',
         link: 'https://www.zhihu.com/'
+      },
+      {
+        icon: 'https://weibo.com/favicon.ico',
+        title: '微博',
+        desc: '中文社交媒体平台',
+        link: 'https://weibo.com/hot/search'
       },
       {
         icon: 'https://www.xiaohongshu.com/favicon.ico',
@@ -82,7 +119,7 @@ export const NAV_DATA: NavData[] = [
     ]
   },
   {
-    title: '站长工具',
+    title: '🛠️ 站长工具',
     items: [
       {
         icon: 'https://csstools.chinaz.com/favicon.ico',
@@ -124,6 +161,13 @@ export const NAV_DATA: NavData[] = [
         link: 'https://1panel.cn/',
       },
       {
+        badge: '永久免费',
+        icon: 'https://www.xp.cn/favicon.ico',
+        title: 'phpStudy',
+        desc: '集成环境搭建工具，集成 Apache、Nginx、MySQL、PHP 等环境',
+        link: 'https://www.xp.cn/phpstudy'
+      },
+      {
         icon: 'https://man.niaoge.com/public/img/favicon.ico',
         title: '鸟哥Linux',
         desc: '最专业的Linux命令大全，Linux常用命令行实例详解',
@@ -131,8 +175,51 @@ export const NAV_DATA: NavData[] = [
       },
     ]
   },
-    {
-    title: '前端技术栈',
+  {
+    title: '🗄️ 后端开发',
+    items: [
+      {
+        icon: 'https://nodejs.org/static/images/favicons/favicon.png',
+        title: 'Node.js',
+        desc: 'Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行环境',
+        link: 'https://nodejs.org/zh-cn'
+      },
+      {
+        icon: 'https://www.php.net/favicon.ico',
+        title: 'PHP',
+        desc: '超级受欢迎的开源通用脚本语言',
+        link: 'https://www.php.net/'
+      },
+      {
+        icon: 'https://www.python.org/favicon.ico',
+        title: 'Python',
+        desc: '目前世界上最受欢迎和拥有最多用户的编程语言',
+        link: 'https://www.python.org/'
+      },
+      {
+        icon: 'https://labs.mysql.com/common/themes/sakila/favicon.ico',
+        title: 'MySQL',
+        desc: '开源关系型数据库管理系统',
+        link: 'https://www.mysql.com/'
+      },
+      {
+        badge: '数据库工具',
+        icon: 'https://www.navicat.com.cn/images/Navicat_16_Premium_win_256x256.ico',
+        title: 'Navicat Premium Lite',
+        desc: 'Navicat 的精简版,支持连接 MySQL、MariaDB、SQL Server、PostgreSQL 和 SQLite 数据库',
+        link: 'https://www.navicat.com.cn/products/navicat-premium-lite'
+      },
+      {
+        badge: '框架',
+        icon: 'https://www.thinkphp.cn/favicon.ico',
+        title: 'ThinkPHP',
+        desc: '免费开源的，快速、简单的面向对象的轻量级PHP开发框架',
+        link: 'https://www.thinkphp.cn/'
+      },
+    ]
+  },
+  {
+    title: '⚛️ 前端技术栈',
     items: [
       {
         badge: '框架',
@@ -185,8 +272,9 @@ export const NAV_DATA: NavData[] = [
       },
     ]
   },
+
   {
-    title: '前端学习资料',
+    title: '📚 学习资料',
     items: [
       {
         badge: '周一更新',
@@ -228,6 +316,13 @@ export const NAV_DATA: NavData[] = [
         link: 'https://markdown.com.cn/'
       },
       {
+        badge: '图书',
+        icon: 'https://lqlab.readthedocs.io/en/latest/_static/icon.ico',
+        title: 'Python完全自学教程',
+        desc: '一本适合零基础入门的Python教程，开源',
+        link: 'https://github.com/qiwsir/PythonBook'
+      },
+      {
         icon: '/icons/you-need-to-know-css.ico',
         title: 'You-need-to-know-css',
         desc: 'Web开发者应该掌握的CSS tricks',
@@ -246,64 +341,56 @@ export const NAV_DATA: NavData[] = [
       }
     ]
   },
-  {
-    title: '后端开发',
-    items: [
-      {
-        icon: 'https://nodejs.org/static/images/favicons/favicon.png',
-        title: 'Node.js',
-        desc: 'Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行环境',
-        link: 'https://nodejs.org/zh-cn'
-      },
-      {
-        icon: 'https://www.php.net/favicon.ico',
-        title: 'PHP',
-        desc: '超级受欢迎的开源通用脚本语言',
-        link: 'https://www.php.net/'
-      },
-      {
-        icon: 'https://www.python.org/favicon.ico',
-        title: 'Python',
-        desc: '目前世界上最受欢迎和拥有最多用户的编程语言',
-        link: 'https://www.python.org/'
-      },
-      {
-        icon: 'https://labs.mysql.com/common/themes/sakila/favicon.ico',
-        title: 'MySQL',
-        desc: '开源关系型数据库管理系统',
-        link: 'https://www.mysql.com/'
-      },
-      {
-        badge: '数据库工具',
-        icon: 'https://www.navicat.com.cn/images/Navicat_16_Premium_win_256x256.ico',
-        title: 'Navicat Premium Lite',
-        desc: 'Navicat 的精简版,支持连接 MySQL、MariaDB、SQL Server、PostgreSQL 和 SQLite 数据库',
-        link: 'https://www.navicat.com.cn/products/navicat-premium-lite'
-      },
-      {
-        badge: '框架',
-        icon: 'https://www.thinkphp.cn/favicon.ico',
-        title: 'ThinkPHP',
-        desc: '免费开源的，快速、简单的面向对象的轻量级PHP开发框架',
-        link: 'https://www.thinkphp.cn/'
-      },
-    ]
-  },
-  {
-    title: '后端学习资料',
-    items: [
-      {
-        badge: '图书',
-        icon: 'https://lqlab.readthedocs.io/en/latest/_static/icon.ico',
-        title: 'Python完全自学教程',
-        desc: '一本适合零基础入门的Python教程，开源',
-        link: 'https://github.com/qiwsir/PythonBook'
-      },
 
+// {
+//   title: '📙 后端学习资料',
+//   items: [
+//     {
+//       badge: '图书',
+//       icon: 'https://lqlab.readthedocs.io/en/latest/_static/icon.ico',
+//       title: 'Python完全自学教程',
+//       desc: '一本适合零基础入门的Python教程，开源',
+//       link: 'https://github.com/qiwsir/PythonBook'
+//     },
+
+//   ]
+// },
+
+  {
+    title: '💻 编辑器/IDE',
+    items: [
+      {
+        badge: '收费',
+        icon: 'https://www.sublimetext.com/favicon.ico',
+        title: 'Sublime Text',
+        desc:' 是一个文本编辑器，同时也是一个先进的代码编辑器',
+        link: 'https://www.sublimetext.com/'
+      },
+      {
+        badge:'开源',
+        icon: 'https://code.visualstudio.com/favicon.ico',
+        title: 'Visual Studio Code',
+        desc: '微软公司开发的跨平台开源代码编辑器',
+        link: 'https://code.visualstudio.com/'
+      },
+      {
+        badge: '开发者免费',
+        icon: 'https://www.jetbrains.com/favicon.ico',
+        title: 'JetBrains IDE',
+        desc: 'JetBrains 公司开发的一系列集成开发环境',
+        link: 'https://www.jetbrains.com/ides/#choose-your-ide'
+      },
+      {
+        badge: 'AI',
+        icon: '//cursor.com/marketing-static/favicon-light.ico',
+        title: 'Cursor',
+        link: 'https://cursor.com/',
+        desc: '用 AI 编码的最佳方式',
+      },
     ]
   },
   {
-    title: '跨平台',
+    title: '🌉 跨平台',
     items: [
       {
         icon: '/icons/electron.svg',
@@ -337,35 +424,17 @@ export const NAV_DATA: NavData[] = [
       }
     ]
   },
-{
-    title: '编辑器/IDE',
-    items: [
-      {
-        badge: '收费',
-        icon: 'https://www.sublimetext.com/favicon.ico',
-        title: 'Sublime Text',
-        desc:' 是一个文本编辑器，同时也是一个先进的代码编辑器',
-        link: 'https://www.sublimetext.com/'
-      },
-      {
-        badge:'开源',
-        icon: 'https://code.visualstudio.com/favicon.ico',
-        title: 'Visual Studio Code',
-        desc: '微软公司开发的跨平台开源代码编辑器',
-        link: 'https://code.visualstudio.com/'
-      },
-      {
-        badge: '开发者免费',
-        icon: 'https://www.jetbrains.com/favicon.ico',
-        title: 'JetBrains IDE',
-        desc: 'JetBrains 公司开发的一系列集成开发环境',
-        link: 'https://www.jetbrains.com/ides/#choose-your-ide'
-      },
-    ]
-  },
+
   {
-    title: '笔记&在线文档',
+    title: '📝 笔记&在线文档',
     items: [
+      {
+        badge: '笔记',
+        icon: 'https://www.notion.com/front-static/favicon.ico',
+        title: 'Notion AI',
+        desc: '新一代笔记和文档，简约、强大、精美。',
+        link: 'https://www.notion.so'
+      },
       {
         icon: 'https://shimo.im/favicon.ico',
         title: '石墨文档',
@@ -396,58 +465,45 @@ export const NAV_DATA: NavData[] = [
         desc: '阿里巴巴旗下在线文档与知识管理平台',
         link: 'https://www.yuque.com/',
       },
-      {
-        badge: '笔记',
-        icon: 'https://www.notion.com/front-static/favicon.ico',
-        title: 'Notion AI',
-        desc: '新一代笔记和文档，简约、强大、精美。',
-        link: 'https://www.notion.so'
-      },
     ]
   },
+  // {
+  //   title: '摸鱼专用',
+  //   items: [
+  //     {
+  //       icon: 'https://weibo.com/favicon.ico',
+  //       title: '微博',
+  //       // desc: '全球最大的中文社交媒体平台',
+  //       link: 'https://weibo.com/hot/search'
+  //     },
+  //     {
+  //       icon: 'https://www.douyin.com/favicon.ico',
+  //       title: '抖音',
+  //       // desc: '全球最大的短视频平台',
+  //       link: 'https://www.douyin.com/'
+  //     },
+  //     {
+  //       icon: 'https://static.hdslb.com/mobile/img/512.png',
+  //       title: '哔哩哔哩',
+  //       // desc: '',
+  //       link: 'https://www.bilibili.com'
+  //     },
+  //     {
+  //       icon: '/icons/instagram.svg',
+  //       title: 'Instagram',
+  //       // desc: 'ins，全球最大的图片社交平台',
+  //       link: 'https://www.instagram.com/'
+  //     },
+  //     {
+  //       icon: '/icons/youtube.svg',
+  //       title: 'YouTube',
+  //       // desc: '',
+  //       link: 'https://www.youtube.com'
+  //     }
+  //   ]
+  // },
   {
-    title: '摸鱼专用',
-    items: [
-      {
-        icon: 'https://weibo.com/favicon.ico',
-        title: '微博',
-        // desc: '全球最大的中文社交媒体平台',
-        link: 'https://weibo.com/hot/search'
-      },
-      {
-        icon: 'https://www.douyin.com/favicon.ico',
-        title: '抖音',
-        // desc: '全球最大的短视频平台',
-        link: 'https://www.douyin.com/'
-      },
-      {
-        icon: 'https://static.hdslb.com/mobile/img/512.png',
-        title: '哔哩哔哩',
-        // desc: '',
-        link: 'https://www.bilibili.com'
-      },
-      {
-        icon: '/icons/instagram.svg',
-        title: 'Instagram',
-        // desc: 'ins，全球最大的图片社交平台',
-        link: 'https://www.instagram.com/'
-      },
-      {
-        icon: '/icons/youtube.svg',
-        title: 'YouTube',
-        // desc: '',
-        link: 'https://www.youtube.com'
-      },
-      {
-        icon: '/icons/x.svg',
-        title: 'X（前 Twitter）',
-        // desc: '',
-        link: 'https://www.x.com'
-      }
-    ]
-  },
-  {
-    title: 'CPS 联盟',
+    title: '🤝CPS 联盟',
     items: [
       {
         icon: "/icons/jd.svg",
