@@ -2,7 +2,6 @@ import { basename } from 'node:path'
 import { defineConfig } from 'vitepress'
 import MarkdownPreview from 'vite-plugin-markdown-preview'
 import { La51Plugin } from 'vitepress-plugin-51la'
-
 import { head, nav, sidebar, algolia } from './configs'
 
 const APP_BASE_PATH = basename(process.env.APP_BASE_PATH || '')
