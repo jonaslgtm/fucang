@@ -6,7 +6,12 @@ title: Daily Notes 日常笔记
 
 日常笔记记录（零零散散啥都记系列）
 
-共计 **10** 篇（上次更新: 2025-12-08）
+共计 **9** 篇（上次更新: 2026-01-11）
+
+
+## 2026 年 (共计 1 篇)
+
+2026-01-11 —— [下载国家中小学智慧教育平台PDF电子课件方法](/daily-notes/2026/download-smartedu-pdf)
 
 
 ## 2025 年 (共计 8 篇)
@@ -26,11 +31,4 @@ title: Daily Notes 日常笔记
 2025-09-18 —— [解决 Github 同步本地分支时报错](/daily-notes/2025/github-change-ssh)
 
 2025-05-02 —— [PicGo + GitHub 搭建个人免费图床](/daily-notes/2025/picgo-github-imagehosting)
-
-
-## 2024 年 (共计 2 篇)
-
-2025-12-08 —— [测试文件不上传](/daily-notes/2024/a-1-copy)
-
-2025-12-08 —— [测试文件不上传](/daily-notes/2024/a-1)
 
