@@ -149,6 +149,13 @@ export const NAV_DATA: NavData[] = [
         link: 'https://www.aliyun.com/',
       },
       {
+        badge: '公安备案',
+        icon: 'https://beian.mps.gov.cn/favicon.ico',
+        title: '公网安备',
+        desc: '全国互联网安全管理服务平台',
+        link: 'https://beian.mps.gov.cn/#/',
+      },
+      {
         icon: 'https://www.bt.cn/favicon.ico',
         title: '宝塔',
         desc: '简单好用的Linux/Windows服务器运维管理面板',
@@ -167,12 +174,7 @@ export const NAV_DATA: NavData[] = [
         desc: '集成环境搭建工具，集成 Apache、Nginx、MySQL、PHP 等环境',
         link: 'https://www.xp.cn/phpstudy'
       },
-      {
-        icon: 'https://man.niaoge.com/public/img/favicon.ico',
-        title: '鸟哥Linux',
-        desc: '最专业的Linux命令大全，Linux常用命令行实例详解',
-        link: 'https://man.niaoge.com/',
-      },
+
     ]
   },
   {
@@ -257,19 +259,20 @@ export const NAV_DATA: NavData[] = [
         link: 'https://sass-lang.com'
       },
       {
-        badge: 'CSS 扩展',
-        icon: '/icons/tailwindcss.png',
-        title: 'TailwindCSS 中文网',
-        desc: '一个功能类优先的 CSS 框架',
-        link: 'https://tailwind.org.cn/'
-      },
-      {
         badge: '构建工具',
         icon: 'https://www.webpackjs.com/icon_180x180.png',
         title: 'Webpack 中文网',
         desc: '一个用于现代 JavaScript 应用程序的静态模块打包工具',
         link: 'https://www.webpackjs.com'
       },
+      {
+        badge: 'CSS 扩展',
+        icon: '/icons/tailwindcss.png',
+        title: 'TailwindCSS 中文网',
+        desc: '一个功能类优先的 CSS 框架',
+        link: 'https://tailwind.org.cn/'
+      },
+
     ]
   },
 
@@ -296,13 +299,6 @@ export const NAV_DATA: NavData[] = [
         link: 'https://www.runoob.com'
       },
       {
-        badge: 'mark',
-        icon: 'https://markdown.com.cn/favicon.ico',
-        title: 'Markdown',
-        desc: 'Markdown 教程',
-        link: 'https://markdown.com.cn/'
-      },
-      {
         badge: '官网',
         icon: 'https://www.typescriptlang.org/icons/icon-72x72.png?v=8944a05a8b601855de116c8a56d3b3ae',
         title: 'TypeScript',
@@ -315,6 +311,19 @@ export const NAV_DATA: NavData[] = [
         title: 'ES6 入门教程',
         desc: '阮一峰的网络日志',
         link: 'http://es6.ruanyifeng.com'
+      },
+      {
+        badge: 'mark',
+        icon: 'https://markdown.com.cn/favicon.ico',
+        title: 'Markdown',
+        desc: 'Markdown 教程',
+        link: 'https://markdown.com.cn/'
+      },
+      {
+        icon: 'https://man.niaoge.com/public/img/favicon.ico',
+        title: '鸟哥Linux',
+        desc: '最专业的Linux命令大全，Linux常用命令行实例详解',
+        link: 'https://man.niaoge.com/',
       },
       {
         badge: '图书',
