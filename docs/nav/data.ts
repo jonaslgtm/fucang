@@ -284,13 +284,6 @@ export const NAV_DATA: NavData[] = [
         link: 'https://frontender-ua.medium.com'
       },
       {
-        badge: '官网',
-        icon: 'https://www.typescriptlang.org/icons/icon-72x72.png?v=8944a05a8b601855de116c8a56d3b3ae',
-        title: 'TypeScript',
-        desc: 'TypeScript 是具有类型语法的 JavaScript',
-        link: 'https://www.typescriptlang.org/zh/'
-      },
-      {
         icon: 'https://developer.mozilla.org/favicon.ico',
         title: 'MDN | Web 开发者指南',
         desc: 'Mozilla 的开发者平台，提供了大量关于 HTML、CSS 和 JavaScript 的详细文档以及广泛的 Web API 参考资',
@@ -308,6 +301,13 @@ export const NAV_DATA: NavData[] = [
         title: 'Markdown',
         desc: 'Markdown 教程',
         link: 'https://markdown.com.cn/'
+      },
+      {
+        badge: '官网',
+        icon: 'https://www.typescriptlang.org/icons/icon-72x72.png?v=8944a05a8b601855de116c8a56d3b3ae',
+        title: 'TypeScript',
+        desc: 'TypeScript 是具有类型语法的 JavaScript',
+        link: 'https://www.typescriptlang.org/zh/'
       },
       {
         badge: '图书',
