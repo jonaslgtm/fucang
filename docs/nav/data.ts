@@ -37,7 +37,7 @@ export const NAV_DATA: NavData[] = [
         link: 'https://www.douyin.com/'
       },
       {
-        icon: 'https://i0.hdslb.com/bfs/static/jinkela/long/images/favicon.ico',
+        icon: 'https://i0.hdslb.com/bfs/static/jinkela/long/images/512.png',
         title: '哔哩哔哩',
         desc: 'B 站，视频弹幕网站',
         link: 'https://www.bilibili.com'
