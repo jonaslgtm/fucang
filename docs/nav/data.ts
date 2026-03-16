@@ -36,7 +36,8 @@ export const NAV_DATA: NavData[] = [
     title: '🤖 AI 工具',
     items: [
       { title: 'DeepSeek', link: 'https://chat.deepseek.com/', icon: 'https://www.deepseek.com/favicon.ico', badge: 'AI', desc: '国产大模型对话助手' },
-      { title: 'Cursor', link: 'https://cursor.sh/', icon: '//cursor.com/marketing-static/favicon-light.ico', badge: 'AI', desc: 'AI 驱动的代码编辑器' }
+      { title: 'Cursor', link: 'https://cursor.sh/', icon: '//cursor.com/marketing-static/favicon-light.ico', badge: 'AI', desc: 'AI 驱动的代码编辑器' },
+      { title: 'Stitch', link: 'https://stitch.withgoogle.com/', icon: '//www.gstatic.com/labs-code/favicon-32x32.png', badge: 'AI', desc: 'Design with AI（Google）UI设计神器' }
     ]
   },
 
