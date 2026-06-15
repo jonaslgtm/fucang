@@ -47,7 +47,8 @@ export const NAV_DATA: NavData[] = [
       { title: 'VS Code', link: 'https://code.visualstudio.com/', icon: 'https://code.visualstudio.com/favicon.ico', badge: 'IDE', desc: '主流轻量级代码编辑器' },
       { title: 'JetBrains', link: 'https://www.jetbrains.com/', icon: 'https://www.jetbrains.com/favicon.ico', badge: 'IDE', desc: '专业开发工具套件' },
       { title: 'Sublime Text', link: 'https://www.sublimetext.com/', icon: 'https://www.sublimetext.com/favicon.ico', badge: '编辑器', desc: '轻量快速文本编辑器' },
-      { title: 'phpStudy', link: 'https://www.xp.cn/phpstudy', icon: 'https://www.xp.cn/favicon.ico', badge: '环境', desc: '本地 PHP 开发环境集成工具' }
+      { title: 'phpStudy', link: 'https://www.xp.cn/phpstudy', icon: 'https://www.xp.cn/favicon.ico', badge: '环境', desc: '本地 PHP 开发环境集成工具' },
+      { title: 'FlyEnv', link: 'https://www.flyenv.com/download.html', icon: 'https://www.flyenv.com/favicon.ico', badge: '环境', desc: 'win/mac 本地开发工具箱' }
     ]
   },
 
