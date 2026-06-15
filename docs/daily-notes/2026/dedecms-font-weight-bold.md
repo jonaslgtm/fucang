@@ -29,8 +29,7 @@ $row['title'] = "<b>".$row['title']."</b>";
 
 ``` PHP
 $row['title'] = $row['title'];
-
-```
++```
 
 保存文件，在后台重新生成栏目即可。
 
