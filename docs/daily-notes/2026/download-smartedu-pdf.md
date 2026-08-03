@@ -28,11 +28,13 @@ tags: ["PDF","浏览器插件"]
 
 推荐优先使用浏览器商店版本。
 
-### Chrome 浏览器安装方法
+### 通用版本
 
-由于 [**小源-电子教材下载助手**] 目前 Chrome 版本正在开发中，可以下载离线通用版：
+离线通用版，适用于所有浏览器，手动安装(*更新：2026-07-22*)：
 
-[小源-电子教材下载助手V1.1.0](https://cdn.jsdelivr.net/gh/jonaslgtm/fucang-imgs@latest/jczx-V1.1.0.zip)
+[小源-电子教材下载助手V3.1.2](https://cdn.jsdelivr.net/gh/jonaslgtm/fucang-imgs@latest/tools/jczx-V3.1.2.zip)
+
+[小源-电子教材下载助手V1.1.0](https://cdn.jsdelivr.net/gh/jonaslgtm/fucang-imgs@latest/tools/jczx-V1.1.0.zip)
 
 ### 使用教程
 
