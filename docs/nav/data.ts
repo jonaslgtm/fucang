@@ -33,6 +33,13 @@ export const NAV_DATA: NavData[] = [
   },
 
   {
+    title: '🧲 Magnet Search',
+    items: [
+      { title: 'Magnetz', link: 'https://magnetz.eu/', icon: 'https://magnetz.eu/favicon.ico', badge: '磁力', desc: '快速简单的磁力链接搜索引擎' }
+    ]
+  },
+
+  {
     title: '🤖 AI 工具',
     items: [
       { title: 'DeepSeek', link: 'https://chat.deepseek.com/', icon: 'https://www.deepseek.com/favicon.ico', badge: 'AI', desc: '国产大模型对话助手' },
