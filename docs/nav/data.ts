@@ -103,7 +103,7 @@ export const NAV_DATA: NavData[] = [
       { title: '51LA', link: 'https://www.51.la/', icon: '/icons/51la.ico', badge: '统计', desc: '网站流量统计工具' },
       { title: '易名中国', link: 'https://www.ename.com/', icon: 'https://www.ename.com/favicon.ico', badge: '域名', desc: '域名注册与交易平台' },
       { title: '公网安备', link: 'https://beian.mps.gov.cn/#/', icon: 'https://beian.mps.gov.cn/favicon.ico', badge: '备案', desc: '网站备案服务入口' },
-      { title: 'Let's Encrypt', link: 'https://letsencrypt.org/zh-cn/', icon: 'https://letsencrypt.org/favicon.ico', badge: '证书', desc: '免费 TLS 证书颁发机构' }
+      { title: "Let's Encrypt", link: 'https://letsencrypt.org/zh-cn/', icon: 'https://letsencrypt.org/favicon.ico', badge: '证书', desc: '免费 TLS 证书颁发机构' }
     ]
   },
 
