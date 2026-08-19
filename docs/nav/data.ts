@@ -44,13 +44,13 @@ export const NAV_DATA: NavData[] = [
   {
     title: '🚀 运维',
     items: [
+      { title: '易名中国', link: 'https://www.ename.com/', icon: 'https://www.ename.com/favicon.ico', badge: '域名', desc: '域名注册与交易平台' },
       { title: '阿里云', link: 'https://www.aliyun.com/', icon: 'https://img.alicdn.com/tfs/TB1_ZXuNcfpK1RjSZFOXXa6nFXa-32-32.ico', badge: '云', desc: '云计算服务平台' },
       { title: '宝塔', link: 'https://www.bt.cn/', icon: 'https://www.bt.cn/favicon.ico', badge: '运维', desc: '服务器管理面板' },
       { title: '1Panel', link: 'https://1panel.cn/', icon: 'https://1panel.cn/favicon.png', badge: '运维', desc: '开源 Linux 面板' },
       { title: '站长之家', link: 'https://tool.chinaz.com/', icon: 'https://csstools.chinaz.com/favicon.ico', badge: '工具', desc: '站长工具集合' },
       { title: '百度资源搜索平台', link: 'https://ziyuan.baidu.com/', icon: 'https://ziyuan.baidu.com/favicon.ico', badge: '站长', desc: '网站收录与搜索资源管理平台' },
       { title: '51LA', link: 'https://www.51.la/', icon: '/icons/51la.ico', badge: '统计', desc: '网站流量统计工具' },
-      { title: '易名中国', link: 'https://www.ename.com/', icon: 'https://www.ename.com/favicon.ico', badge: '域名', desc: '域名注册与交易平台' },
       { title: '公网安备', link: 'https://beian.mps.gov.cn/#/', icon: 'https://beian.mps.gov.cn/favicon.ico', badge: '备案', desc: '网站备案服务入口' },
       { title: "Let's Encrypt", link: 'https://letsencrypt.org/zh-cn/', icon: 'https://letsencrypt.org/favicon.ico', badge: '证书', desc: '免费 TLS 证书颁发机构' }
     ]
