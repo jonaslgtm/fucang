@@ -42,6 +42,21 @@ export const NAV_DATA: NavData[] = [
   },
 
   {
+    title: '🚀 运维',
+    items: [
+      { title: '阿里云', link: 'https://www.aliyun.com/', icon: 'https://img.alicdn.com/tfs/TB1_ZXuNcfpK1RjSZFOXXa6nFXa-32-32.ico', badge: '云', desc: '云计算服务平台' },
+      { title: '宝塔', link: 'https://www.bt.cn/', icon: 'https://www.bt.cn/favicon.ico', badge: '运维', desc: '服务器管理面板' },
+      { title: '1Panel', link: 'https://1panel.cn/', icon: 'https://1panel.cn/favicon.png', badge: '运维', desc: '开源 Linux 面板' },
+      { title: '站长之家', link: 'https://tool.chinaz.com/', icon: 'https://csstools.chinaz.com/favicon.ico', badge: '工具', desc: '站长工具集合' },
+      { title: '百度资源搜索平台', link: 'https://ziyuan.baidu.com/', icon: 'https://ziyuan.baidu.com/favicon.ico', badge: '站长', desc: '网站收录与搜索资源管理平台' },
+      { title: '51LA', link: 'https://www.51.la/', icon: '/icons/51la.ico', badge: '统计', desc: '网站流量统计工具' },
+      { title: '易名中国', link: 'https://www.ename.com/', icon: 'https://www.ename.com/favicon.ico', badge: '域名', desc: '域名注册与交易平台' },
+      { title: '公网安备', link: 'https://beian.mps.gov.cn/#/', icon: 'https://beian.mps.gov.cn/favicon.ico', badge: '备案', desc: '网站备案服务入口' },
+      { title: "Let's Encrypt", link: 'https://letsencrypt.org/zh-cn/', icon: 'https://letsencrypt.org/favicon.ico', badge: '证书', desc: '免费 TLS 证书颁发机构' }
+    ]
+  },
+
+  {
     title: '💻 开发环境',
     items: [
       { title: 'VS Code', link: 'https://code.visualstudio.com/', icon: 'https://code.visualstudio.com/favicon.ico', badge: 'IDE', desc: '主流轻量级代码编辑器' },
@@ -56,7 +71,7 @@ export const NAV_DATA: NavData[] = [
     title: '⚛️ 前端',
     items: [
       { title: 'Vite', link: 'https://cn.vitejs.dev', icon: 'https://cn.vitejs.dev/logo.svg', badge: '构建', desc: '下一代前端构建工具' },
-      { title: 'React', link: 'https://zh-hans.reactjs.org', icon: 'https://zh-hans.reactjs.org/favicon.ico', badge: '框架', desc: '用于构建 UI 的前端框架' },
+      { title: 'React', link: 'https://zh-hans.react.dev', icon: 'https://zh-hans.react.dev/favicon.ico', badge: '框架', desc: '用于构建 UI 的前端框架' },
       { title: 'Vue 3', link: 'https://cn.vuejs.org', icon: 'https://cn.vuejs.org/logo.svg', badge: '框架', desc: '渐进式 JavaScript 框架' },
       { title: 'Webpack', link: 'https://www.webpackjs.com', icon: 'https://www.webpackjs.com/icon_180x180.png', badge: '构建', desc: '模块打包工具' },
       { title: 'TailwindCSS', link: 'https://tailwind.org.cn/', icon: '/icons/tailwindcss.png', badge: 'CSS', desc: '原子化 CSS 框架' },
@@ -64,6 +79,7 @@ export const NAV_DATA: NavData[] = [
       { title: 'Sass', link: 'https://sass-lang.com', icon: '/icons/sass.svg', badge: 'CSS', desc: 'CSS 预处理器' }
     ]
   },
+
   {
     title: '🗄️ 后端',
     items: [
@@ -71,14 +87,6 @@ export const NAV_DATA: NavData[] = [
       { title: 'PHP', link: 'https://www.php.net/', icon: 'https://www.php.net/favicon.ico', badge: '后端', desc: '经典服务端语言' },
       { title: 'Python', link: 'https://www.python.org/', icon: 'https://www.python.org/favicon.ico', badge: '后端', desc: '通用编程语言' },
       { title: 'ThinkPHP', link: 'https://www.thinkphp.cn/', icon: 'https://www.thinkphp.cn/favicon.ico', badge: '框架', desc: 'PHP 开发框架' }
-    ]
-  },
-
-  {
-    title: '🗃️ 数据库',
-    items: [
-      { title: 'MySQL', link: 'https://www.mysql.com/', icon: 'https://labs.mysql.com/common/themes/sakila/favicon.ico', badge: '数据库', desc: '主流关系型数据库' },
-      { title: 'Navicat', link: 'https://www.navicat.com.cn/products/navicat-premium-lite', icon: 'https://www.navicat.com.cn/images/Navicat_16_Premium_win_256x256.ico', badge: '工具', desc: '数据库管理工具' }
     ]
   },
 
@@ -94,21 +102,15 @@ export const NAV_DATA: NavData[] = [
   },
 
   {
-    title: '🚀 运维',
+    title: '🗃️ 数据库',
     items: [
-      { title: '阿里云', link: 'https://www.aliyun.com/', icon: 'https://img.alicdn.com/tfs/TB1_ZXuNcfpK1RjSZFOXXa6nFXa-32-32.ico', badge: '云', desc: '云计算服务平台' },
-      { title: '宝塔', link: 'https://www.bt.cn/', icon: 'https://www.bt.cn/favicon.ico', badge: '运维', desc: '服务器管理面板' },
-      { title: '1Panel', link: 'https://1panel.cn/', icon: 'https://1panel.cn/favicon.png', badge: '运维', desc: '开源 Linux 面板' },
-      { title: '站长之家', link: 'https://tool.chinaz.com/', icon: 'https://csstools.chinaz.com/favicon.ico', badge: '工具', desc: '站长工具集合' },
-      { title: '51LA', link: 'https://www.51.la/', icon: '/icons/51la.ico', badge: '统计', desc: '网站流量统计工具' },
-      { title: '易名中国', link: 'https://www.ename.com/', icon: 'https://www.ename.com/favicon.ico', badge: '域名', desc: '域名注册与交易平台' },
-      { title: '公网安备', link: 'https://beian.mps.gov.cn/#/', icon: 'https://beian.mps.gov.cn/favicon.ico', badge: '备案', desc: '网站备案服务入口' },
-      { title: "Let's Encrypt", link: 'https://letsencrypt.org/zh-cn/', icon: 'https://letsencrypt.org/favicon.ico', badge: '证书', desc: '免费 TLS 证书颁发机构' }
+      { title: 'MySQL', link: 'https://www.mysql.com/', icon: 'https://labs.mysql.com/common/themes/sakila/favicon.ico', badge: '数据库', desc: '主流关系型数据库' },
+      { title: 'Navicat', link: 'https://www.navicat.com.cn/products/navicat-premium-lite', icon: 'https://www.navicat.com.cn/images/Navicat_16_Premium_win_256x256.ico', badge: '工具', desc: '数据库管理工具' }
     ]
   },
 
   {
-    title: '📚 学习 & 文档',
+    title: '📚 学习文档',
     items: [
       { title: 'MDN', link: 'https://developer.mozilla.org/zh-CN', icon: 'https://developer.mozilla.org/favicon.ico', badge: '文档', desc: '权威 Web 技术文档' },
       { title: 'TypeScript', link: 'https://www.typescriptlang.org/zh/', icon: 'https://www.typescriptlang.org/icons/icon-72x72.png?v=8944a05a8b601855de116c8a56d3b3ae', badge: '文档', desc: 'JS 类型系统官方文档' },
@@ -133,20 +135,12 @@ export const NAV_DATA: NavData[] = [
     ]
   },
 
-
   {
-    title: '🧲 磁力搜索',
+    title: '🧰 其他',
     items: [
       { title: 'Magnetz', link: 'https://magnetz.eu/', icon: 'https://magnetz.eu/images/magnetz.svg', badge: '磁力', desc: '快速简单的磁力链接搜索引擎' }
     ]
   },
-
-  // {
-  //   title: '🧰 其他',
-  //   items: [
-
-  //   ]
-  // },
 
   {
     title: '💰 变现',
